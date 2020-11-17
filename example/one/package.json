@@ -1,0 +1,16 @@
+{
+  "name": "one",
+  "version": "1.0.0",
+  "description": "- [ ] 使用 jest 测试 index.js 内的 add 函数 - [ ] 执行 npm run test 时运行 tests 文件夹内的测试 - [ ] 测试 add 函数   - 当输入 1,1 时,应该输出 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.15",
+    "jest": "^26.6.3"
+  }
+}
