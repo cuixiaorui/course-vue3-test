@@ -1,0 +1,17 @@
+<template>
+  <div>
+    <h1>Welcome!</h1>
+    <main>
+      <slot />
+    </main>
+    <footer>
+      Thanks for visiting.
+    </footer>
+  </div>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style></style>
