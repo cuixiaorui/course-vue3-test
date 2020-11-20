@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`static snapshot  1`] = `
+<div>
+  <h1>
+    hi my name is a static component b
+  </h1>
+</div>
+`;

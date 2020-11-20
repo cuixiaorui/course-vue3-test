@@ -1,16 +1,19 @@
 <template>
   <div>
-    <post-list></post-list>
+    <counter></counter>
+    <counter-options></counter-options>
   </div>
 </template>
 
 <script>
-import PostList from './components/PostList.vue';
+import Counter from "./components/Counter.vue";
+import CounterOptions from "./components/Counter.options";
 
 export default {
   name: "App",
   components: {
-    PostList
+    Counter,
+    CounterOptions
   }
 };
 </script>

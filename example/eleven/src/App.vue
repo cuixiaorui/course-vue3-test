@@ -1,16 +1,15 @@
 <template>
   <div>
-    <post-list></post-list>
+    <timer></timer>
   </div>
 </template>
 
 <script>
-import PostList from './components/PostList.vue';
-
+import Timer from "./components/Timer.vue";
 export default {
   name: "App",
   components: {
-    PostList
+    Timer
   }
 };
 </script>

@@ -1,17 +1,15 @@
 <template>
-  <div>
-    <post-list></post-list>
-  </div>
+  <TodoList></TodoList>
 </template>
 
 <script>
-import PostList from './components/PostList.vue';
+import TodoList from "./components/TodoList";
 
 export default {
   name: "App",
   components: {
-    PostList
-  }
+    TodoList,
+  },
 };
 </script>
 

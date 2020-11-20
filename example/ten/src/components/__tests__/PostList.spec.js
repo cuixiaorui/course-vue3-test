@@ -1,16 +1,14 @@
 import { mount, flushPromises } from "@vue/test-utils";
 import axios from "axios";
-import PostList from "./PostList.vue";
-
-const fakePostList = [
-  { id: 1, title: "title1" },
-  { id: 2, title: "title2" },
-];
+import PostList from "../PostList.vue";
 
 // Following lines tell Jest to mock any call to `axios.get`
 // and to return `fakePostList` instead
 jest.mock("axios", () => ({
-  get: jest.fn(() => fakePostList),
+  get: jest.fn(() => [
+    { id: 1, title: "title1" },
+    { id: 2, title: "title2" },
+  ]),
 }));
 
 test("loads posts on button click", async () => {

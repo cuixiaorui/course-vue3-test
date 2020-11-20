@@ -1,0 +1,16 @@
+{
+  "name": "seventeen-tdd-fizzbuzz",
+  "version": "1.0.0",
+  "description": "### 需求",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.15",
+    "jest": "^26.6.3"
+  }
+}

@@ -1,17 +1,16 @@
 <template>
   <div>
-    <post-list></post-list>
+    <CustomRadio></CustomRadio>
   </div>
 </template>
 
 <script>
-import PostList from './components/PostList.vue';
-
+import CustomRadio from "./components/CustomRadio";
 export default {
   name: "App",
   components: {
-    PostList
-  }
+    CustomRadio,
+  },
 };
 </script>
 
